@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+section div {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 50px 80px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+}
+
+.learnlist {
+  border: 1px solid #000;
+}
+#Learn span {
+  font-size: 2em;
+  color: orange;
+}
+
+.learnlist img {
+  width: 100px;
+  height: 190px;
+  object-fit: cover;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.submit {
+  padding: 5px;
+  margin-top: 20 px;
+  border: none;
+  border-radius: 3px;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">KDT 과제</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#About"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Learn">Learn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Schedule">Schedule</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#To_Developer">To-Developer</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div id="About">
+        <strong>About</strong>
+        <p>
+          이 홈페이지는 KDT선발 과정 과제입니다.<br />html,css,javascript를
+          이용해서 간단하게 만들었습니다. <br />코딩온에 대해서 더 자세히 알고
+          싶은 분은 아래 버튼을 눌러주세요.
+        </p>
+        <iframe
+          src="https://codingon.co.kr/pr/index#intro"
+          frameborder="0"
+        ></iframe>
+        <button
+          type="button"
+          onclick="window.open('https://codingon.co.kr/pr/index#intro');"
+        >
+          코딩온 바로가기
+        </button>
+      </div>
+      <div id="Learn">
+        <strong>Learn</strong>
+        <p>KDT 강의 목록입니다.</p>
+        <span>html, javascript, python, css</span>
+        <p>강의를 수강하였습니다.</p>
+        <div class="learnlist">
+          <img src="./jquery.PNG" alt="jquery image" />
+          <img src="./html.PNG" alt="html image" />
+          <img src="./css.PNG" alt="css image" />
+          <img src="./python.PNG" alt="python image" />
+        </div>
+      </div>
+      <div id="Schedule">
+        <pre>
+                             <strong>5</strong>월 Schedule 입니다</pre
+        >
+        <br />
+
+        <table
+          align="center"
+          cellpadding="20"
+          width="500"
+          style="text-align: center"
+        >
+          <tr>
+            <td style="color: red">일</td>
+            <td>월</td>
+            <td>화</td>
+            <td>수</td>
+            <td>목</td>
+            <td>금</td>
+            <td style="color: blue">토</td>
+          </tr>
+          <tr>
+            <td style="color: red">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td style="color: red">5</td>
+            <td>6</td>
+            <td style="color: blue">7</td>
+          </tr>
+          <tr>
+            <td style="color: red">8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td style="color: blue">14</td>
+          </tr>
+          <tr>
+            <td style="color: red">15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td style="color: blue">21</td>
+          </tr>
+          <tr>
+            <td style="color: red">22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td style="color: blue">28</td>
+          </tr>
+          <tr>
+            <td style="color: red">29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div id="To_Developer">
+        <strong>To Developer</strong>
+        <form action="#">
+          이름 :
+          <input
+            type="text"
+            name="name"
+            placeholder="이름을 적어주세요"
+          /><br />
+          제목 :
+          <input
+            type="text"
+            name="title"
+            placeholder="제목을 적어주세요"
+          /><br />
+          내용 :
+          <input
+            type="text"
+            name="content"
+            placeholder="하고싶은 말을 적어주세요"
+            size="80"
+          /><br />
+          <button type="button" class="submit">제출</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
